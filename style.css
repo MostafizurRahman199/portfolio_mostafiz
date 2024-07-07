@@ -12,7 +12,7 @@ nav{
     font-family: "Open Sans", sans-serif;
     justify-content: space-around;
    
-    margin: 50px;
+    
 
 }
 
@@ -58,11 +58,18 @@ nav ul{
 
 
 .header_clss{
+  
+    background-color: #FFF8F3;
+   
+
+}
+
+.second_div{
+    padding: 50px 50px 0px 50px;
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
     background-repeat: no-repeat;
-
-    background-position: top left, bottom right;
-
+    background-position: left 20px top 25px, right 0 bottom 0;
+    
 }
 /* banner style */
 
@@ -133,7 +140,7 @@ nav ul{
 .shared_btn{
     text-align: center;
     display: flex;
-    gap: 2px;
+    gap: 10px;
 }
 .banner_image{
     display: flex;
@@ -142,4 +149,266 @@ nav ul{
 .image_man{
    
     
+}
+main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   /* padding: 100px; */
+}
+.about{
+    width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.about_info_outer-ul{
+       display: flex;
+       text-decoration: none;
+       gap: 30px;
+       
+    }
+    .about_info_outer-ul ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       text-decoration: none;
+       list-style: none;
+      
+
+}
+
+.about_info_outer-ul ul li{
+    text-align: center;
+    font-size: 18px;
+  
+}
+
+
+.list_value{
+    font-weight: 600;
+}
+.inner_about_section{
+    width: 827px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap: 30px;
+}
+
+.section_description{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.section_title{
+    font-weight: 800;
+    font-size: 35px;
+    color: #181818;
+}
+
+/* card skills */
+.skills{
+    /* width: 827px;
+    height: 288px; */
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill_cards{
+    display: flex;
+    width: 1140px;
+    height: 550px;
+    gap: 24px;
+}
+
+.inner_about_section{
+    width: 827px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        
+}
+.card{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: start;
+
+}
+.card_deatils{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card_para{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;;
+
+}
+
+.card_image{
+    height: 44px;
+    width: 44px;
+}
+
+/* skills  */
+
+
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 550px;
+    margin-top: 200px;
+}
+
+.resume_inner_div{
+    display: flex;
+    justify-content: start;
+    gap: 71px;
+    margin-top: 60px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.edu_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resume_para_1{
+    font-size: 25px;
+    font-weight: 800;
+    color: #474747;
+}
+.resume_para_2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume_para_3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.horizontal{
+   background-color: #D1D1D1;
+   color: #D1D1D1;
+   opacity: 0.6;
+    
+}
+
+.education h3{
+    font-size: 30px;
+    font-weight: 800;
+    color:#474747;
+}
+.experience h3{
+    font-size: 30px;
+    font-weight: 800;
+    color:#474747;
+}
+
+
+.contact{
+    width: 100%;
+    height: 1000;
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebd8cc;
+    padding: 100px;
+    border-radius: 5px;
+    margin-top: 200px;
+
+}
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.contact_inner_div{
+ width: 1140px; 
+ display: flex;  
+ justify-content: space-between;
+}
+.contact_info_ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.contact_info_para{
+    width: 562px;
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact_form input{
+    width: 460px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 30px;
+    width: 450px;
+    height: 55px;
+    font-size: 16px;
+}
+.contact_form textarea{
+    padding: 18px 30px;
+    width: 450px;
+    height: 160px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
 }
