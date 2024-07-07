@@ -11,6 +11,9 @@ nav{
     display: flex;
     font-family: "Open Sans", sans-serif;
     justify-content: space-around;
+   
+    margin: 50px;
+
 }
 
 nav ul{
@@ -36,8 +39,8 @@ nav ul{
 }
 
 .nav_btn{
-    width: 150px;
-    height: 64px;
+    /* width: 150px;
+    height: 64px; */
     background-color: #FD6E0A;
     border-radius: 5px;
     color: white;
@@ -51,4 +54,92 @@ nav ul{
 .nav_title{
     font-weight: 800;
     font-size: 45px;
+}
+
+
+.header_clss{
+    background-image: url('./images/developer.png'), url('./images/header_bg.png');
+    background-repeat: no-repeat;
+
+    background-position: top left, bottom right;
+
+}
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+   
+    height: 100vh;
+   
+}
+
+.banner_content_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 585px;
+    height: 356px;
+    gap: 10px;
+    padding-left: 71px ;
+   
+}
+
+.banner_para1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner_heading{
+    font-size: 85px;
+    font-weight: 800;
+    color: #474747;
+}
+
+.banner_para_2{
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400px;
+}
+.banner_btn_div{
+    display: flex;
+    gap:30px;
+}
+
+.btn_secondary{
+   
+        /* width: 150px;
+        height: 64px; */
+        background-color:white;
+        border-radius: 5px;
+        color: #FD6E0A;
+        padding: 18px 35px;
+        text-align: center;
+        border: 1px solid  #FD6E0A;
+        font-weight: 800;
+        font-size: 18px;
+   
+}
+
+.shared_btn{
+    text-align: center;
+    display: flex;
+    gap: 2px;
+}
+.banner_image{
+    display: flex;
+    align-items: end;
+}
+.image_man{
+   
+    
 }
