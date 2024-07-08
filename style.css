@@ -370,6 +370,7 @@ main{
     flex-direction: column;
     gap: 25px;
 }
+
 .contact_inner_div{
  width: 1140px; 
  display: flex;  
