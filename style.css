@@ -413,3 +413,76 @@ main{
     border: none;
     font-size: 16px;
 }
+
+.nav_btn{
+    transition-duration:0.5s ;
+    transition-property: all;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.nav_btn:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    transition-property:all ;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    
+
+}
+.card:hover{
+    transform: translateY(-10px);
+    transform-origin: bottom;
+    cursor: pointer;
+    background-color: #EBD8CC;
+
+}
+
+.nav_title {
+    animation-name: colorAnimate;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorAnimate {
+    0%, 100% {
+        color: #000000; /* Starting and ending color (light color) */
+    }
+    50% {
+        color:  #ff6200; /* Midpoint color (text color set to transparent) */
+    }
+}
+
+.nav_bar_span{
+    animation-name: colorAnimate;
+    animation-duration: 2.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.banner_heading{
+    animation-name: colorAnimate2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes colorAnimate2 {
+    0%, 100% {
+        color: transparent; /* Set initial color to transparent */
+        background: black; /* Replace with your desired gradient */
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    50% {
+        color: transparent; /* Set initial color to transparent */
+        background: linear-gradient(to right, #ff8a00, #e52e71); /* Replace with your desired gradient */
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
