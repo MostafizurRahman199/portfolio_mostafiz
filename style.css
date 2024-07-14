@@ -45,6 +45,36 @@ nav ul {
   text-wrap: nowrap;
 }
 
+
+.btn_cv{
+    display: flex;
+    gap: 3px;
+    background-color: #fd6e0a;
+    border-radius: 0.3125rem;
+    color: white;
+    padding: 1.125rem 2.1875rem;
+    text-align: center;
+    border: none;
+    font-weight: 800;
+    font-size: 1.125rem;
+    text-wrap: nowrap;
+    
+}
+
+.btn_submit{
+    display: flex;
+    gap: 3px;
+    background-color: #fd6e0a;
+    border-radius: 0.3125rem;
+    color: white;
+    padding: 1.125rem 2.1875rem;
+    text-align: center;
+    border: none;
+    font-weight: 800;
+    font-size: 1.125rem;
+    text-wrap: nowrap; 
+}
+
 .nav_title {
   font-weight: 800;
   font-size: 45px;
@@ -113,12 +143,31 @@ nav ul {
 }
 
 .btn_secondary {
+
+    display: flex;
+    gap: 10px;
   width: 100%;
   /* height: 64px;  */
   background-color: white;
   border-radius: 5px;
   color: #fd6e0a;
   padding: 18px 35px;
+  text-align: center;
+  border: 1px solid #fd6e0a;
+  font-weight: 800;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+.btn_Hire_me{
+
+    
+  width: 100%;
+  /* height: 64px;  */
+  background-color: white;
+  border-radius: 5px;
+  color: #fd6e0a;
+  padding: 10px 10px;
   text-align: center;
   border: 1px solid #fd6e0a;
   font-weight: 800;
@@ -219,7 +268,7 @@ nav ul {
   }
   .banner_btn_div {
     display: flex;
-    /* gap:30px; */
+    /* flex-direction: column; */
     max-width: 570px;
   }
   .shared_btn {
@@ -227,12 +276,11 @@ nav ul {
     margin: 0px;
   }
   .btn_secondary {
-    /* width: 150px;
-            height: 64px; */
+  
     background-color: white;
-    /* border-radius: 5px; */
+    
     color: #fd6e0a;
-    /* padding: 18px 35px; */
+   
     text-align: center;
     border: 1px solid #fd6e0a;
     font-weight: 800;
@@ -252,6 +300,46 @@ nav ul {
     font-size: 10px;
     width: 100%;
   }
+
+  .btn_cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    background-color: #fd6e0a;
+    border-radius: 0.3125rem;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    border: none;
+    font-weight: 800;
+    font-size: 10px;
+    text-wrap: nowrap;
+    
+}
+  .btn_cv img{
+  
+    width: 15px;
+}
+  .btn_secondary img{
+  
+    width: 15px;
+}
+  .btn_secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+   
+    border-radius: 0.3125rem;
+  
+    padding: 5px 10px;
+    text-align: center;
+    border: none;
+    font-weight: 800;
+    font-size: 10px;
+    text-wrap: nowrap;
+}
 
   .banner_image {
     /* display: flex;
@@ -303,24 +391,19 @@ nav ul {
         margin: 0px;
       }
       .btn_secondary {
-        /* width: 150px;
-                height: 64px; */
+        display: flex;
+        gap: 5px;
         background-color: white;
-        /* border-radius: 5px; */
+        border-radius: 5px;
         color: #fd6e0a;
         /* padding: 18px 35px; */
         text-align: center;
         border: 1px solid #fd6e0a;
         font-weight: 800;
-        font-size: 10px;
+        font-size: 16px;
       }
     
-      .shared_btn {
-        text-align: center;
-        display: flex;
-        font-size: 10px;
-        /* gap: 10px; */
-      }
+     
     
       .nav_btn {
         text-align: center;
@@ -363,24 +446,19 @@ nav ul {
         margin: 0px;
       }
       .btn_secondary {
-        /* width: 150px;
-                height: 64px; */
+        display: flex;
+        gap: 5px;
         background-color: white;
-        /* border-radius: 5px; */
+        border-radius: 5px;
         color: #fd6e0a;
-        /* padding: 18px 35px; */
+        padding: 15px 35px;
         text-align: center;
         border: 1px solid #fd6e0a;
         font-weight: 800;
-        font-size: 10px;
+        font-size: 20px;
       }
     
-      .shared_btn {
-        text-align: center;
-        display: flex;
-        font-size: 10px;
-        /* gap: 10px; */
-      }
+     
     
       .nav_btn {
         text-align: center;
@@ -417,6 +495,19 @@ nav ul {
 
     .banner_image {
         display: none;
+      }
+
+      .btn_secondary {
+        display: flex;
+        gap: 5px;
+        background-color: white;
+        border-radius: 5px;
+        color: #fd6e0a;
+        padding: 15px 35px;
+        text-align: center;
+        border: 1px solid #fd6e0a;
+        font-weight: 800;
+        font-size: 20px;
       }
 }
 
@@ -1054,6 +1145,44 @@ main {
     gap: 71px;
     /* margin-top: 60px; */
   }
+
+  .banner_btn_div {
+    display: flex;
+    /* gap:30px; */
+    max-width: 570px;
+  }
+  .shared_btn {
+    padding: 10px;
+    margin: 0px;
+  }
+  .btn_secondary {
+    /* width: 150px;
+            height: 64px; */
+    background-color: white;
+    /* border-radius: 5px; */
+    color: #fd6e0a;
+    /* padding: 18px 35px; */
+    text-align: center;
+    border: 1px solid #fd6e0a;
+    font-weight: 800;
+    font-size: 10px;
+  }
+
+  .shared_btn {
+    text-align: center;
+    display: flex;
+    font-size: 10px;
+    /* gap: 10px; */
+  }
+
+  .nav_btn {
+    text-align: center;
+    text-wrap: nowrap;
+    /* display: flex; */
+    font-size: 10px;
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 @media ((min-width: 301px) and (max-width:329px)) {
@@ -1082,6 +1211,44 @@ main {
     gap: 71px;
     /* margin-top: 60px; */
   }
+
+  .banner_btn_div {
+    display: flex;
+    /* gap:30px; */
+    max-width: 570px;
+  }
+  .shared_btn {
+    padding: 10px;
+    margin: 0px;
+  }
+  .btn_secondary {
+    /* width: 150px;
+            height: 64px; */
+    background-color: white;
+    /* border-radius: 5px; */
+    color: #fd6e0a;
+    /* padding: 18px 35px; */
+    text-align: center;
+    border: 1px solid #fd6e0a;
+    font-weight: 800;
+    font-size: 10px;
+  }
+
+  .shared_btn {
+    text-align: center;
+    display: flex;
+    font-size: 10px;
+    /* gap: 10px; */
+  }
+
+  .nav_btn {
+    text-align: center;
+    text-wrap: nowrap;
+    /* display: flex; */
+    font-size: 10px;
+    width: 100%;
+    padding: 10px;
+  }
 }
 @media ((min-width: 330px) and (max-width:428px)) {
   .resume {
@@ -1108,6 +1275,15 @@ main {
 
     gap: 71px;
     /* margin-top: 60px; */
+  }
+
+  .nav_btn {
+    text-align: center;
+    text-wrap: nowrap;
+    /* display: flex; */
+    font-size: 20px;
+    width: 30%;
+   
   }
 }
 @media ((min-width: 428.1px) and (max-width:576px)) {
@@ -1136,6 +1312,12 @@ main {
     gap: 71px;
     /* margin-top: 60px; */
   }
+    
+  .nav_btn{
+  width: 200px;
+   
+  }
+
 }
 
 @media ((min-width: 576.1px) and (max-width:768px)) {
@@ -1163,6 +1345,17 @@ main {
     gap: 71px;
     /* margin-top: 60px; */
   }
+
+
+ 
+  .nav_btn {
+    text-align: center;
+    text-wrap: nowrap;
+    /* display: flex; */
+    font-size: 16px;
+    width: 30%;
+   
+  }
 }
 @media ((min-width: 768.1px) and (max-width:992px)) {
   .resume {
@@ -1189,6 +1382,16 @@ main {
     gap: 71px;
     margin-top: 60px;
   }
+
+
+  .nav_btn {
+    text-align: center;
+    text-wrap: nowrap;
+    /* display: flex; */
+    font-size: 20px;
+    width: 25%;
+   
+  }
 }
 @media ((min-width: 992.1px) and (max-width:1200px)) {
   .resume {
@@ -1214,6 +1417,20 @@ main {
 
     gap: 71px;
     margin-top: 60px;
+  }
+
+
+  
+
+  
+
+  .nav_btn {
+    text-align: center;
+    text-wrap: nowrap;
+    /* display: flex; */
+    font-size: 20px;
+    width: 25%;
+   
   }
 }
 
@@ -1283,6 +1500,8 @@ main {
   height: 160px;
 }
 
+
+
 /* contact media query */
 @media (max-width: 576px) {
   .contact {
@@ -1303,6 +1522,46 @@ main {
 
   .contact_form {
     width: 100%;
+  }
+
+
+  .banner_btn_div {
+    display: flex;
+    /* gap:30px; */
+    max-width: 570px;
+  }
+  .shared_btn {
+    padding: 10px;
+    margin: 0px;
+  }
+  .btn_secondary {
+    /* width: 150px;
+            height: 64px; */
+    background-color: white;
+    /* border-radius: 5px; */
+    color: #fd6e0a;
+    /* padding: 18px 35px; */
+    text-align: center;
+    border: 1px solid #fd6e0a;
+    font-weight: 800;
+    font-size: 10px;
+  }
+
+  .shared_btn {
+    text-align: center;
+    display: flex;
+    font-size: 10px;
+    /* gap: 10px; */
+  }
+
+  .nav_btn {
+    text-align: center;
+    text-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  
   }
 }
 
